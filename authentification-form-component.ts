@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'login-form',
-  templateUrl: './login-form.template.html'
+  templateUrl: './authentification-form.template.html'
 })
 export class LoginFormComponent {
 
