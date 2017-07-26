@@ -1,11 +1,18 @@
+/* tslint:disable:no-unused-variable */
+import { NO_ERRORS_SCHEMA, DebugElement } from '@angular/core';
+import { TestBed } from '@angular/core/testing';
+import { LoginAuthentificationFormComponent } from './authentification-form-component.ts';
+
+
 describe('Authentification Shallow tests:', () => { 
 
   beforeEach(() => {
    TestBed.configureTestingModule({
-     // components will be compile
+     // components will be compile, go deep!
      declarations: [ 
        LoginAuthentificationFormComponent
      ],
+     schemas: [ NO_ERRORS_SCHEMA ],
      imports: [FormsModule, ReactiveFormsModule],
      // the component class moves to the "declarations property" instead of "providers"
      providers: []
