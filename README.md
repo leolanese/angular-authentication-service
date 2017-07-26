@@ -1,4 +1,4 @@
-# reactive-authentication-service-AJS4
+# Reactive Authentication Service using Angualar4+
 A simple reactive login form using @Output()
 I'm using reactive forms because of flexibility and simplicity on unit-test than template-driven forms.
 
