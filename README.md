@@ -13,7 +13,9 @@ https://angular.io/guide/reactive-forms
 - FormBuilder is inside the constructor, and includes the validations
 - Instead of register changes adn bind events, I'm going to be using AJS4 ngOnChanges lifecycle hook so when the
 email or password get change they will trigger the ngOnChanges.
-- The setValue it will 
+- Using the [formGroup] property will trigger the form handling with the components FormGroup 
+- We will listen to form submissions with ngSubmit
+
 
 
 
