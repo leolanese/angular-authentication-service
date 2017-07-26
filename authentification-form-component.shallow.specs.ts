@@ -2,11 +2,12 @@ describe('Authentification Shallow tests:', () => {
 
   beforeEach(() => {
    TestBed.configureTestingModule({
-     // the component class moves to the "declarations property" instead of "providers"
+     // components will be compile
      declarations: [ 
        LoginAuthentificationFormComponent
      ],
-     imports: [FormsModule, ReactiveFormsModule]
+     imports: [FormsModule, ReactiveFormsModule],
+     // the component class moves to the "declarations property" instead of "providers"
      providers: []
     });
   });
