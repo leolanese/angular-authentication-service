@@ -3,10 +3,11 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'login-form',
-  templateUrl: './authentification-form.template.html'
+  templateUrl: './authentification-form.template.html',
+  styleUrls: [ './authentification-form.component.sass' ]
 })
-export class LoginFormComponent {
 
+export class LoginFormComponent {
   private loginForm: FormGroup;
 
   constructor(private formBuilder: FormBuilder) {
@@ -16,11 +17,8 @@ export class LoginFormComponent {
     });
   }
 
-  @Input()
-  email: string;
-
-  @Output()
-  submitted = new EventEmitter();
+  @Input() email: string;
+  @Output() submitingValues = new EventEmitter();
 
   ngOnChanges(change) {
     if (change.email) {
@@ -29,6 +27,7 @@ export class LoginFormComponent {
   }
 
   onSubmit({ email, password }) {
-    this.submitted.emit({ email, password });
+    this.submitingValues.emit({ email, password });
   }
+
 }
