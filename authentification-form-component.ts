@@ -2,12 +2,12 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
-  selector: 'login-form',
+  selector: 'login-authentification-form',
   templateUrl: './authentification-form.template.html',
   styleUrls: [ './authentification-form.component.sass' ]
 })
 
-export class LoginFormComponent {
+export class LoginAuthentificationFormComponent {
   private loginForm: FormGroup;
 
   constructor(private formBuilder: FormBuilder) {
