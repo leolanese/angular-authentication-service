@@ -3,7 +3,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TestBed, inject, async } from '@angular/core/testing';
 import { Component } from '@angular/core';
 
-describe('Authentification Test:', () => {
+describe('Authentification form - Isolated Test:', () => {
   let component: LoginAuthentificationFormComponent;
 
   beforeEach(() => {
