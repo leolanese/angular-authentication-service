@@ -3,7 +3,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TestBed, inject, async } from '@angular/core/testing';
 import { Component } from '@angular/core';
 
-describe('Isolated', () => {
+describe('Authentification Test:', () => {
   let subject: LoginFormComponent;
 
   beforeEach(() => {
@@ -17,7 +17,7 @@ describe('Isolated', () => {
     subject = loginForm;
   }));
 
-  it('should send credentials on submit', () => {
+  it('Should contain login data value on submit:', () => {
     subject.submitted.subscribe(({ email, password }) => {
       expect(email).toEqual(expectedEmail);
       expect(password).toEqual(expectedPassword);
