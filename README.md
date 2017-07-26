@@ -16,6 +16,10 @@ email or password get change they will trigger the ngOnChanges.
 - Using the [formGroup] property will trigger the form handling with the components FormGroup 
 - We will listen to form submissions with ngSubmit
 
+## Unit-test
+- Isolated tests (Component not compiled. Focus component's logic. Faster tests.)
+- Shallow tests (Component is compiled. )
+
 
 
 
