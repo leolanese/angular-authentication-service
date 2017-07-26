@@ -4,7 +4,7 @@ import { TestBed, inject, async } from '@angular/core/testing';
 import { Component } from '@angular/core';
 
 describe('Authentification Test:', () => {
-  let subject: LoginFormComponent;
+  let loginFormComponent: LoginFormComponent;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
@@ -13,16 +13,17 @@ describe('Authentification Test:', () => {
     });
   });
 
+  // inject: It injects services into the test function where you can alter, spy on, and manipulate them.
   beforeEach(inject([LoginFormComponent], (loginForm: LoginFormComponent) => {
-    subject = loginForm;
+    loginFormComponent = loginForm;
   }));
 
   it('Should contain login data value on submit:', () => {
-    subject.submitted.subscribe(({ email, password }) => {
+    loginFormComponent.submitted.subscribe(({ email, password }) => {
       expect(email).toEqual(expectedEmail);
       expect(password).toEqual(expectedPassword);
     });
 
-    subject.onSubmit({ email: expectedEmail, password: expectedPassword });
+    loginFormComponent.onSubmit({ email: expectedEmail, password: expectedPassword });
   });
 });
