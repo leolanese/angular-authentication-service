@@ -4,7 +4,7 @@ import { TestBed } from '@angular/core/testing';
 import { LoginAuthentificationFormComponent } from './authentification-form-component.ts';
 
 
-describe('Authentification Shallow tests:', () => { 
+describe('Authentification Form - Shallow tests:', () => { 
 
   beforeEach(() => {
    TestBed.configureTestingModule({
