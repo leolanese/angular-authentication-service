@@ -18,7 +18,8 @@ email or password get change they will trigger the ngOnChanges (further informat
 
 ## Unit-test
 - Isolated tests (Focus component's logic. Component doesn't need to be compiled. Faster tests.)
-- Shallow tests (To detect errors inside the template. Component needs to be compiled. Slower test (due to compilation step))
+- Shallow tests (To detect errors inside the template. Component needs to be compiled. Slower test (due to compilation step) but test more parts)
+- Integration Tests (Simil to Shallow test. Also needs navigation for all the elements)
 
 Further information:
 https://angular.io/guide/testing#shallow-component-test
