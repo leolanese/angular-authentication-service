@@ -8,6 +8,7 @@ describe('Authentification Test:', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
+      // keep it on providers. Components are not going to be compiled
       providers: [LoginAuthentificationFormComponent],
       imports: [FormsModule, ReactiveFormsModule]
     });
