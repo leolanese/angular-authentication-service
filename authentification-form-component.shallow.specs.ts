@@ -24,6 +24,7 @@ describe('Authentification Shallow tests:', () => {
     let component: LoginAuthentificationFormComponent = fixture.componentInstance;
     let element = fixture.nativeElement;
 
+    // we have to call the detectChanges method after every change
     fixture.detectChanges();
 
     element.querySelector('#login-email').value = expectedEmail;
