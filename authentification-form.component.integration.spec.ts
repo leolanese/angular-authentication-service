@@ -1,3 +1,8 @@
+import { LoginAuthentificationFormComponent } from './authentification-form-component.ts';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TestBed, inject, async } from '@angular/core/testing';
+import { Component } from '@angular/core';
+
 describe('Integration', () => {
 
   @Component({
@@ -19,12 +24,11 @@ describe('Integration', () => {
     }
   }
 
-  beforeEach(async(() => {
+  beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [LoginFormComponent, AuthentificationComponent],
+      declarations: [LoginAuthentificationFormComponent, AuthentificationComponent],
       imports: [FormsModule, ReactiveFormsModule]
     });
-    TestBed.compileComponents();
   }));
 
   it('Should send login email values on submit:', () => {
