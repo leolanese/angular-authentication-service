@@ -1,6 +1,6 @@
 # Reactive Authentication Service using Angular4+
 A simple reactive login form using @Output()
-I'm using reactive forms because of flexibility and simplicity on unit-test than template-driven forms.
+I'm using reactive forms because of speed, flexibility and simplicity on unit-test than template-driven forms.
 
 Further infomation:
 https://angular.io/guide/reactive-forms
