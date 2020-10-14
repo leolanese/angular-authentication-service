@@ -1,8 +1,9 @@
-# Reactive Authentication Service using Angular4+
-A simple reactive login form using @Output()
+# Angular Reactive Authentication Service
+
+> A simple reactive login form using @Output()
 I'm using "Reactive Forms" because of speed, flexibility and simplicity on unit-test rather than "Template-driven forms".
 
-Further infomation:
+Further infomation:<br>
 https://angular.io/guide/reactive-forms
 
 
@@ -21,29 +22,18 @@ email or password get change they will trigger the ngOnChanges (further informat
 - Shallow tests (To detect errors inside the template. Component needs to be compiled. Slower test (due to compilation step) but test more parts)
 - Integration Tests (Simil to Shallow test. Also needs navigation for all the elements)
 
-Further information:
+Further information:<br>
 https://angular.io/guide/testing#shallow-component-test
 
---
+---
+### :100: <i>Thanks!</i>
 
-{ 'L e o L a n e s e',
+> { I'm `Leo Lanese`,<br>
+   'Building Inspiring Responsive `Reactive Solutions`',<br>
+   '`London, UK`' }<br>
 
-'I B u i l d I n s p i r i n g R e s p o n s i v e S o l u t i o n s',
-
-'L O N D O N , U K' }
-
-My Portfolio
-
-http://www.leolanese.com
-
-My Blog:
-
-www.leolanese.com/blog
-
-Twitter:
-
-Follow me at:http://twitter.com/LeoLaneseltd
-
-Questions / Suggestion / Recommendation ?
-
-angularjs@leolanese.com
+##### :radio_button: Twitter: <a href="https://twitter.com/LeoLaneseltd" target="_blank">@LeoLaneseltd</a>
+##### :radio_button: Portfolio: <a href="https://www.leolanese.com" target="_blank">www.leolanese.com</a>
+##### :radio_button: DEV.to: <a href="https://www.dev.to/leolanese" target="_blank">dev.to/leolanese</a>
+##### :radio_button: Blog: <a href="https://www.leolanese.com/blog" target="_blank">leolanese.com/blog</a>
+##### :radio_button: Questions / Suggestion / Recommendation: developer@leolanese.com
